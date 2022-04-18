@@ -605,3 +605,5 @@ local Info = Tab:NewSection("Info")
 Info:NewTextBox("Made by 16#0001", "TextboxInfo", function(txt)
     print(txt)
 end)
+game.Players.LocalPlayer.XRay.Value = true
+end)
