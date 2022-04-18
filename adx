@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Pop It Script v2.2", "Ocean")
+local Window = Library.CreateLib("Pop It Script v2.3", "Ocean")
 
 local Tab = Window:NewTab("main")
 local Section = Tab:NewSection("main")
