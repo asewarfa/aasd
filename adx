@@ -587,6 +587,10 @@ end
 end)
 local Tab = Window:NewTab("Misc")
 local Misc = Tab:NewSection("Misc")
+Misc:NewButton("Enable XRay Gamepass", "buys gamepass", function()
+    print("Clicked")
+    game.Players.LocalPlayer.XRay.Value = true
+end)
 Misc:NewButton("E to fly script", "Makes you fly", function()
         loadstring(game:HttpGet(('https://pastebin.com/raw/KtLKcbxr'),true))()
     print("Clicked")
@@ -604,6 +608,4 @@ local Tab = Window:NewTab("Info")
 local Info = Tab:NewSection("Info")
 Info:NewTextBox("Made by 16#0001", "TextboxInfo", function(txt)
     print(txt)
-end)
-game.Players.LocalPlayer.XRay.Value = true
 end)
