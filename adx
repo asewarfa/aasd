@@ -941,9 +941,79 @@ wait(1)
                       
                               end
                       end)
-                      ss:Button("Anti Reap By The_KillerHood#6712",function() 
-                        --THIS SCRIPT MADE BY: The_KillerHood#6712
-    loadstring(game:HttpGet("https://thekillerhood.xyz/PopitScript/FREEANTIREAP"))()
+                      ss:Button("Anti Reap",function() 
+                        game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, true)
+for i, v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do 
+  if v:IsA("MeshPart") or "Part" then
+      v:Destroy()
+  end 
+end
+wait(1)
+for i = 1,10 do
+  wait()
+local args = {
+  [1] = "Watermelon"
+}
+game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+wait(1)
+     for i,v in pairs(game.Players.LocalPlayer:FindFirstChildOfClass("Backpack"):GetChildren()) do
+      if v.Name == "Watermelon" then
+          v.Parent = game.Players.LocalPlayer.Character
+      end
+     end
+    end
+for _, v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+  if v.Name == "Watermelon" then
+      v.Handle:Destroy()
+end
+end
+while wait() do
+     for i,v in pairs(game.Players.LocalPlayer:FindFirstChildOfClass("Backpack"):GetChildren()) do
+      if v.Name == "Watermelon" then
+          v.Parent = game.Players.LocalPlayer.Character
+      end
+     end
+    end
+while wait() do
+     for i,v in pairs(game.Players.LocalPlayer:FindFirstChildOfClass("Backpack"):GetChildren()) do
+      if v.Name == "Watermelon" then
+          v.Parent = game.Players.LocalPlayer.Character
+      end
+     end
+    end
+while wait() do
+
+     for i,v in pairs(game.Players.LocalPlayer:FindFirstChildOfClass("Backpack"):GetChildren()) do
+      if v.Name == "Watermelon" then
+          v.Parent = game.Players.LocalPlayer.Character
+      end
+     end
+    end
+while wait() do
+
+     for i,v in pairs(game.Players.LocalPlayer:FindFirstChildOfClass("Backpack"):GetChildren()) do
+      if v.Name == "Watermelon" then
+          v.Parent = game.Players.LocalPlayer.Character
+      end
+     end
+    
+end
+while wait() do
+
+     for i,v in pairs(game.Players.LocalPlayer:FindFirstChildOfClass("Backpack"):GetChildren()) do
+      if v.Name == "Watermelon" then
+          v.Parent = game.Players.LocalPlayer.Character
+      end
+     end
+    end
+    while wait() do
+
+     for i,v in pairs(game.Players.LocalPlayer:FindFirstChildOfClass("Backpack"):GetChildren()) do
+      if v.Name == "Watermelon" then
+          v.Parent = game.Players.LocalPlayer.Character
+      end
+     end
+ end
                                 end)
                   ss:Toggle("Crasher",function(state)
                           if state then
